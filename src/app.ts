@@ -4,7 +4,7 @@ export const dva = {
     onError(err: ErrorEvent) {
       err.preventDefault();
       console.error(err.message);
-      console.log(4)
+      console.log(5)
     },
   },
 };
