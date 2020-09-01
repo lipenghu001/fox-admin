@@ -15,3 +15,13 @@ function Example() {
 }
 
 export default Example
+
+interface User {
+  name: string,
+  age: number
+}
+
+let a: User = {
+  name: "",
+  age: 2
+}
